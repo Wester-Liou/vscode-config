@@ -1,0 +1,18 @@
+{
+  // ============ Copilot Chat ============
+  // 設定 Copilot Chat 使用的模型
+  "chat.mcp.serverSampling": {
+    ".vscode/mcp.json": {
+      "allowedModels": ["copilot/claude-sonnet-4.5"]
+    }
+  },
+  // 在所有檔案中啟用 Github Copilot 建議，除了純文字檔案
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false
+  },
+  // 自動觸發重新命名建議
+  "github.copilot.renameSuggestions.triggerAutomatically": true,
+  // 設定 Copilot Chat 使用的語言為繁體中文
+  "github.copilot.chat.localeOverride": "zh-TW"
+}
